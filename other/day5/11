@@ -1,0 +1,14 @@
+def get_img(path,nums):
+    url = '= 'http://www.jianzhiku.com/earn/ExportData'
+
+    params = {
+        'pindex': nums,
+        'id': '5ppjx',
+        'status': '1'
+    }
+    response =  = requests.post(url(url=url, data=params)
+    result =  = json.loads(res(ds(response.text)
+  )
+    img_list = list()
+    for i in result:
+        img_mg_list.append(i['(i['imgurl'])
